@@ -34,7 +34,7 @@
                         int.TryParse(actions[1].Split()[0], out index);
                         var letter = char.Parse(actions[1].Split()[1]);
                         
-                        if(index >= 0 && index <= sb.Length - 1)
+                        if(index >= 0 && index < sb.Length)
                         {
                             sb.Remove(index, 1).Insert(index, letter);
                             Console.WriteLine("Success!");
@@ -50,15 +50,20 @@
                         {
                             case "Change":
                                 string seccond = actions[1].Split()[2];
-                                sb.Replace(sub, seccond);
-                                Console.WriteLine(sb.ToString());
+                                if (sb.ToString().Contains(sub))
+                                {
+                                    sb.Replace(sub, seccond);
+                                    Console.WriteLine(sb.ToString());
+                                }
                                 break;
                             case "Remove":
                                 index = sb.ToString().IndexOf(sub);
                                 for (int i = 0; i < sub.Length; i++)
                                     sb.Remove(index, 1);
                                 Console.WriteLine(sb.ToString());
-                                ;
+                                break;
+                            default:
+                                Console.WriteLine("Command doesn't exist!");
                                 break;
                         }
                         break;
