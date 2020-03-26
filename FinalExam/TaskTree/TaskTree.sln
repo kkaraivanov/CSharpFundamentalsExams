@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HeroRecruitment", "HeroRecruitment\HeroRecruitment.csproj", "{883BF852-B301-459A-863E-E7F2E8BA836D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeroRecruitment", "HeroRecruitment\HeroRecruitment.csproj", "{883BF852-B301-459A-863E-E7F2E8BA836D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Nikulden’sMeals", "Nikulden’sMeals\Nikulden’sMeals.csproj", "{189F5357-A8DF-43BA-82F4-77A8D05812C5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Nikulden’sMeals", "Nikulden’sMeals\Nikulden’sMeals.csproj", "{189F5357-A8DF-43BA-82F4-77A8D05812C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InboxManager", "InboxManager\InboxManager.csproj", "{8D06A3DC-FCC9-4F78-B305-291F8205C1DD}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{189F5357-A8DF-43BA-82F4-77A8D05812C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{189F5357-A8DF-43BA-82F4-77A8D05812C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{189F5357-A8DF-43BA-82F4-77A8D05812C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D06A3DC-FCC9-4F78-B305-291F8205C1DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D06A3DC-FCC9-4F78-B305-291F8205C1DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D06A3DC-FCC9-4F78-B305-291F8205C1DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D06A3DC-FCC9-4F78-B305-291F8205C1DD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
