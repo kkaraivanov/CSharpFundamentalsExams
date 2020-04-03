@@ -7,7 +7,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BossRush", "BossRush\BossRu
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MessageTranslator", "MessageTranslator\MessageTranslator.csproj", "{7FA51927-7200-4FFD-BB4B-ECE6178912F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Registration", "Registration\Registration.csproj", "{4805C786-F94E-4FB1-B2DD-801F7109F5EB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Registration", "Registration\Registration.csproj", "{4805C786-F94E-4FB1-B2DD-801F7109F5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageDecrypter", "MessageDecrypter\MessageDecrypter.csproj", "{5C23FE99-4CC0-4361-84DB-E716E1747CCF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{4805C786-F94E-4FB1-B2DD-801F7109F5EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4805C786-F94E-4FB1-B2DD-801F7109F5EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4805C786-F94E-4FB1-B2DD-801F7109F5EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C23FE99-4CC0-4361-84DB-E716E1747CCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C23FE99-4CC0-4361-84DB-E716E1747CCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C23FE99-4CC0-4361-84DB-E716E1747CCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C23FE99-4CC0-4361-84DB-E716E1747CCF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
